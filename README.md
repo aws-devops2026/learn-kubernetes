@@ -39,6 +39,7 @@ What is a nodeGroup ?
 
     ,,,,,
 
+
     How to connect to the cluster after provisioning ? aws eks update-kubeconfig --region --name
 
 What is kube-config ? This is a file that containers the cluster info along with authenticationInfo that enables you to connect to the cluster and the location of it in "~/.kube/config"
@@ -69,7 +70,7 @@ Kubernetes config file will have lot of contexts, how do we know the current con
     arn:aws:eks:us-east-1:xxxxxxxx:cluster/example
 
     .........
-    
+
 
 
 
