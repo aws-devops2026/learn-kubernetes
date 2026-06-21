@@ -18,6 +18,8 @@ What all components did we learn so far in kubernetes ?
 10) Controller Manager 
 
 .....
+
+
 Keep in mind, when you're using kubernetes managed service on cloud, MASTER NODE will be completely under the control of aws and cannot be seen in your account.
 
 In kubernetes, we don't run CONTAINED directly.
