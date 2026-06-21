@@ -3,14 +3,14 @@ resource "aws_eks_node_group" "example" {
   node_group_name = "example"
   node_role_arn   = aws_iam_role.example.arn
  subnet_ids = [
-      "subnet-0d1a07bc7ceaf4694",
-      "subnet-05a9dc77897b66c38",
-      "subnet-08c53c78664626d0f"
+      "subnet-05ea2f5637b5f7f8c",
+      "subnet-099c5c7842b75d921",
+      "subnet-072e4160e181ae39d"
     ]
 
   scaling_config {
     desired_size = 2
-    max_size     = 5
+    max_size     = 6
     min_size     = 1
   }
 
