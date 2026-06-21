@@ -17,3 +17,19 @@ What all components did we learn so far in kubernetes ?
 9) scheduler 
 10) Controller Manager 
 
+.....
+Keep in mind, when you're using kubernetes managed service on cloud, MASTER NODE will be completely under the control of aws and cannot be seen in your account.
+
+In kubernetes, we don't run CONTAINED directly.
+
+We run PODS on the cluster and this pod holds the containers.
+
+Each pod can have one more containers inside the pod. ( Each pod will have an IP, all the containers are on the same network space - they don't have no ip )
+
+POD is the smallest compute resource on kubernetes.
+
+Kubernetes is the first container orchestrator that solved the problem of shared network and storage.
+
+EKS Cluster on AWS is on 3 types: 1) Public Cluster ( Accessible from the internet and communication from master-node is via public ) 2) Public Private Cluster ( Accessible from the internet & communication from master-node is private ) 3) Private Cluster ( Cannot be accessible from internet, master-node communication is internal )
+
+A kubernetes cluster will have multiple nodegroups / nodepools
