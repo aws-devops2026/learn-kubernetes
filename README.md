@@ -39,7 +39,6 @@ A kubernetes cluster will have multiple nodegroups / nodepools
 What is a nodeGroup ?
     A nodeGroup is nothing but a group of similar instances.
 
-    # ,,,,,
 
 
     How to connect to the cluster after provisioning ? aws eks update-kubeconfig --region --name
