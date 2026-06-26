@@ -15,10 +15,10 @@ vpc_config {
 depends_on = [ 
 
 
-    aws_iam_role_policy_attachment.cluster_AmazonEKSClusterPolicy,
-    aws_iam_role_policy_attachment.cluster_AmazonEKSComputePolicy,
-    aws_iam_role_policy_attachment.cluster_AmazonEKSBlockStoragePolicy,
-    aws_iam_role_policy_attachment.cluster_AmazonEKSLoadBalancingPolicy,
-    aws_iam_role_policy_attachment.cluster_AmazonEKSNetworkingPolicy,
+   # aws_iam_role_policy_attachment.cluster_AmazonEKSClusterPolicy,
+   #  aws_iam_role_policy_attachment.cluster_AmazonEKSComputePolicy,
+   #  aws_iam_role_policy_attachment.cluster_AmazonEKSBlockStoragePolicy,
+   # aws_iam_role_policy_attachment.cluster_AmazonEKSLoadBalancingPolicy,
+   # aws_iam_role_policy_attachment.cluster_AmazonEKSNetworkingPolicy,
  ]
 }
